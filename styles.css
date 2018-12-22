@@ -1,0 +1,490 @@
+@font-face {
+    font-family: CenturyGothicRegular;
+    src: url(fonts/CenturyGothic.ttf);
+}
+
+@font-face {
+    font-family: CenturyGothicBold;
+    src: url(fonts/CenturyGothic-Bold.ttf);
+}
+
+body {
+    font-family: CenturyGothicRegular, serif !important;
+}
+
+body a {
+    color: #000;
+}
+
+body a:hover {
+    text-decoration: none;
+    color: #595e5e;
+}
+
+@media (max-width: 767px) {
+    .whyWe .fa-4x {
+        font-size: 2rem !important;
+    }
+
+    .thirdBlock p {
+        font-size: 0.9rem;
+    }
+
+    .trustBlock .mobileBlock {
+        padding-top: 0;
+    }
+
+    .howBlock div {
+        margin-top: 20px !important;
+    }
+
+    .howBlock svg {
+        height: 60px;
+    }
+
+    .arrow, .arrow2 {
+        display: none;
+    }
+
+    .howBlock span {
+        left: 180px;
+        top: 0 !important;
+    }
+
+    .map img, .consButton {
+        display: none;
+    }
+
+    .map .mapCard {
+        padding: 5px !important;
+        margin: 0 !important;
+        font-size: 0.8rem;
+    }
+
+    .contactsBlock .kokaLogo {
+        display: none;
+    }
+
+    .contactLinks span {
+        font-size: 0.6rem;
+    }
+
+    .logoBlock {
+        display: none;
+    }
+
+    .socialLinks {
+        padding-top: 0px !important;
+    }
+}
+
+header {
+    text-align: center;
+    height: 80px;
+    padding: 15px 0;
+}
+
+.mail a {
+    text-decoration: underline;
+}
+
+.kokaLogo {
+    height: 50px;
+}
+
+.language {
+    text-align: left;
+}
+
+.language i {
+    font-size: 36px;
+}
+
+.language a {
+    padding: 5px;
+    text-decoration: underline;
+}
+
+.firstBox {
+    padding: 50px 0;
+    margin-bottom: 75px;
+}
+
+.firstBox div:nth-child(2) {
+    padding-top: 40px;
+}
+
+.firstBox span {
+    font-family: CenturyGothicBold, serif !important;
+    font-size: 3rem;
+    line-height: 3.65rem;
+}
+
+.firstBox p {
+    font-size: 1.3rem;
+}
+
+.orderButton {
+    margin: 50px auto;
+    text-align: center;
+    color: #FFF;
+    font-size: 2.1rem;
+    border-radius: 6px;
+    width: 340px;
+    height: 60px;
+    background: linear-gradient(to right, black, RGB(0, 165, 64));
+}
+
+.orderButton:hover {
+    opacity: 0.8;
+}
+
+.modal-content {
+    background: linear-gradient(to left, black, RGB(0, 165, 64));
+}
+
+.modal-header, .modal-footer {
+    border: 0px !important;
+}
+
+.modal-content .label {
+    color: #fff;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+.modal-content span {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.modal-body input {
+    margin: 5px;
+}
+
+.bodyLabel {
+    margin-top: 48px;
+}
+
+.modal-body .row {
+    margin-top: 20px;
+    height: 100px;
+}
+
+.modal-body .row div {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+}
+
+.messenger {
+    background: url(img/facebook.png);
+}
+
+.telegram {
+    background: url(img/telegramm.png);
+}
+
+.whatsapp {
+    background: url(img/whatsapp.png);
+}
+
+.viber {
+    background: url(img/viberLogo.png);
+}
+
+.modal .modal-footer {
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.modalButton {
+    text-align: center;
+    color: #000;
+    font-size: 1.4rem;
+    border-radius: 6px;
+    width: 280px;
+    height: 60px;
+    background: #fff;
+}
+
+.productsBlock {
+    height: 620px;
+    color: #000;
+    position: relative;
+}
+
+.productsBlock::after {
+    content: '';
+    background-image: url(img/pan.jpg);
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+
+.label p {
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: CenturyGothicBold, serif !important;
+    padding-top: 25px;
+}
+
+.carousel {
+    margin-top: 20px;
+    height: 520px;
+}
+
+.carousel-item img {
+    margin: 0 auto;
+}
+
+.imgContainer {
+    height: 250px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: rgba(99, 99, 99, 0.63) !important;
+    border-radius: 5px;
+}
+
+.itemInfo {
+    text-align: center;
+    padding-top: 10px;
+    height: 260px;
+    font-size: 0.9rem;
+}
+
+.itemInfo div {
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 7px;
+    height: 40px;
+    background-color: rgba(99, 99, 99, 0.16);
+    border-radius: 20px;
+}
+
+
+.whyWe {
+    height: 620px;
+    position: relative;
+}
+
+.whyWe::after {
+    content: '';
+    background-image: url(img/whyback.jpg);
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.whyWe .label {
+    height: 60px;
+}
+
+.whyWe .row {
+    text-align: center;
+}
+
+.whyWe h1 {
+    font-family: CenturyGothicBold, serif !important;
+    text-decoration: underline;
+    font-size: 1.1rem;
+    padding-top: 8px;
+    margin-bottom: 0;
+}
+
+.whyWe .row:nth-child(4) {
+    padding-bottom: 20px;
+}
+
+.thirdBlock div:nth-child(odd) {
+    margin-top: -90px;
+}
+
+
+.trustBlock {
+    height: 620px;
+    position: relative;
+}
+
+.trustBlock::after {
+    content: '';
+    background-image: url(img/pavel.jpg);
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.videoBlock {
+    background-image: url(img/macbook.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 334px;
+
+}
+
+.video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+
+.video iframe {
+    position: absolute;
+    height: 84%;
+    width: 87%;
+    left: 6.5%;
+    top: 9px;
+}
+
+.textBlock {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 2.2rem;
+}
+
+.howBlock {
+    height: 630px;
+}
+
+.howBlock div {
+    text-align: center;
+}
+
+.howBlock div:nth-child(2) {
+    margin-top: 270px;
+}
+
+.howBlock div:nth-child(3) {
+    margin-top: 170px;
+}
+
+.howBlock div:nth-child(4) {
+    margin-top: 70px;
+}
+
+.howBlock span {
+    position: absolute;
+    top: 100px;
+}
+
+.howBlock .arrow {
+    position: absolute;
+    top: 60px;
+}
+
+.howBlock .arrow2 {
+    margin-left: -40px;
+    margin-top: 60px;
+}
+
+footer {
+    height: 480px;
+    position: relative;
+}
+
+footer::after {
+    content: '';
+    background-image: url(img/koka.jpg);
+    background-size: cover;
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.map img {
+    height: 270px;
+    z-index: 1;
+    border-radius: 150px;
+}
+
+.map {
+    height: 310px;
+}
+
+.mapCard {
+    height: 160px;
+    background-color: #fff;
+    margin-left: -120px;
+    margin-top: 20px;
+    padding: 20px 0 0 130px !important;
+    border-radius: 10px;
+}
+
+footer .contactsBlock {
+    height: 75px;
+    margin-bottom: 10px;
+    background-color: #005d1f;
+}
+
+.consButton {
+    position: absolute;
+    bottom: 0;
+    left: 38%;
+}
+
+.consButton div {
+    margin: 40px 20px;
+    padding-top: 10px;
+    text-align: center;
+    color: #000;
+    font-size: 1.4rem;
+    border-radius: 6px;
+    width: 280px;
+    height: 60px;
+    background: #fff;
+}
+
+.contactsBlock {
+    padding-top: 10px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.contactsBlock a {
+    color: #212529;
+}
+
+.contactsBlock a:hover {
+    opacity: 0.8;
+}
+
+.socialLinks {
+    padding-top: 12px;
+}
+
+.contactLinks .fa-telegram {
+    color: #37ade8;
+}
+
+.contactLinks .fa-whatsapp {
+    color: #51ca5e;
+}
+
+.contactLinks .fa-wechat {
+    color: #00bb0c;
+}
+
+.contactLinks .fa-phone-square {
+    color: #FFF;
+}

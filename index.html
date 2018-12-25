@@ -58,34 +58,37 @@
                         <p>Заказать или проконсультироватся прямо сейчас</p>
                     </div>
                 </div>
-                <div class="modal-body row justify-content-center">
-                    <div class="col-12"><span>Заполните форму</span></div>
-                    <input required type="text" class="col-3" alt="Имя" placeholder="имя*">
-                    <input required type="number" class="col-3" alt="Номер телефона"
-                           placeholder="Номер телефона*">
-                    <input required type="email" class="col-3" alt="E-MAIL" placeholder="E-MAIL*">
-                    <div class="col-12 bodyLabel"><span>Выбирите любимый мессенджер, чтобы связатся с продавцом</span>
+                <form action="send.php" method="get">
+                    <div class="modal-body row justify-content-center">
+                        <div class="col-12"><span>Заполните форму</span></div>
+                        <input required type="text" name="Name" class="col-3" placeholder="имя*">
+                        <input required type="number" name="tel" class="col-3"
+                               placeholder="Номер телефона*">
+                        <input required type="email" name="email" class="col-3" placeholder="E-MAIL*">
+                        <div class="col-12 bodyLabel">
+                            <span>Выбирите любимый мессенджер, чтобы связатся с продавцом</span>
+                        </div>
+                        <div class="col-12 row justify-content-center">
+                            <a class="col-2" target="_blank" href="https://web.facebook.com/groups/KokaPads/">
+                                <div class="messenger"></div>
+                            </a>
+                            <a class="col-2" target="_blank" href="https://t.me/kokapads">
+                                <div class="telegram"></div>
+                            </a>
+                            <a class="col-2" href="#"
+                               data-toggle="tooltip" data-placement="top" title="+380636421527">
+                                <div class="whatsapp"></div>
+                            </a>
+                            <a class="col-2" href="#"
+                               data-toggle="tooltip" data-placement="top" title="+380636421527">
+                                <div class="viber"></div>
+                            </a>
+                        </div>
                     </div>
-                    <div class="col-12 row justify-content-center">
-                        <a class="col-2" target="_blank" href="https://web.facebook.com/groups/KokaPads/">
-                            <div class="messenger"></div>
-                        </a>
-                        <a class="col-2" target="_blank" href="https://t.me/kokapads">
-                            <div class="telegram"></div>
-                        </a>
-                        <a class="col-2" href="#"
-                           data-toggle="tooltip" data-placement="top" title="+380636421527">
-                            <div class="whatsapp"></div>
-                        </a>
-                        <a class="col-2" href="#"
-                           data-toggle="tooltip" data-placement="top" title="+380636421527">
-                            <div class="viber"></div>
-                        </a>
+                    <div class="modal-footer">
+                        <button data-dismiss="modal" type="submit" class="modalButton">Готово!</button>
                     </div>
-                </div>
-                <div class="modal-footer">
-                    <button data-dismiss="modal" type="button" class="modalButton">Готово!</button>
-                </div>
+                </form>
             </div>
         </div>
     </div>

@@ -27,9 +27,18 @@
                     </a>
                 </span>
             </div>
-            <div class="col-3 col-md-4 col-lg-3 row language">
-                <div><i class="fa fa-cog"></i></div>
-                <div><a href="index_eng.html">ENG</a></div>
+            <div class="col-3 col-md-4 col-lg-4 row language">
+                <div class="my-auto"><i class="fa fa-cog"></i></div>
+                <div class="my-auto">
+                    <a class="" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Language
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item translate" id="en" href="#">English</a>
+                        <a class="dropdown-item translate" id="ru" href="#">Russian</a>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
@@ -39,10 +48,10 @@
             <img src="img/cnc.jpg" alt="kokapads pads for brake" class="col-12">
         </div>
         <div class="col-12 col-md-6">
-            <span>Тормозные колодки и компаунды</span>
-            <p>для ободных гидравлических и механических тормозных систем</p>
+            <span class="lang" key="firstBoxHeadLine">Тормозные колодки и компаунды</span>
+            <p class="lang" key="firstBoxParagraph">для ободных гидравлических и механических тормозных систем</p>
             <a class="row" data-toggle="modal" data-target="#modal">
-                <div class="orderButton col-8">Заказать сейчас</div>
+                <div class="orderButton col-8 lang" key="firstBoxOrder">Заказать сейчас</div>
             </a>
         </div>
     </div>
@@ -55,18 +64,18 @@
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
-                        <p>Заказать или проконсультироватся прямо сейчас</p>
+                        <p class="lang" key="modalTitleParagraph">Заказать или проконсультироватся прямо сейчас</p>
                     </div>
                 </div>
                 <form action="send.php" method="get">
                     <div class="modal-body row justify-content-center">
-                        <div class="col-12"><span>Заполните форму</span></div>
-                        <input required type="text" name="user" class="col-3" placeholder="имя*">
+                        <div class="col-12"><span class="lang" key="modalFillForm">Заполните форму</span></div>
+                        <input required type="text" name="user" class="col-3" placeholder="Name*">
                         <input required type="number" name="tel" class="col-3"
-                               placeholder="Номер телефона*">
+                               placeholder="Phone*">
                         <input required type="email" name="email" class="col-3" placeholder="E-MAIL*">
                         <div class="col-12 bodyLabel">
-                            <span>Выбирите любимый мессенджер, чтобы связатся с продавцом</span>
+                            <span class="lang" key="modalChooseMessage">Выбирите любимый мессенджер, чтобы связатся с продавцом</span>
                         </div>
                         <div class="col-12 row justify-content-center">
                             <a class="col-2" target="_blank" href="https://web.facebook.com/groups/KokaPads/">
@@ -86,7 +95,7 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="submit" class="modalButton">Готово!</button>
+                        <button type="submit" class="modalButton lang" key="modalDone">Готово!</button>
                     </div>
                 </form>
             </div>
@@ -95,7 +104,7 @@
 
     <div class="row justify-content-center productsBlock">
         <div class="col-12 label">
-            <p>Наш ассортимент</p>
+            <p class="lang" key="productsBlockOur">Наш ассортимент</p>
         </div>
         <div class="col-12 col-lg-9">
             <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
@@ -107,7 +116,7 @@
                         </div>
                         <div class="itemInfo d-none d-md-block">
                             <b>Standard Blue CNC compounds</b><br>
-                            <span>
+                            <span class="lang" key="productsBlockFirstItem">
                                 - Хорошее торможение при использовании любого гринда;<br>
                                 - Подходят для большинства стандартов CNC корпусов;<br>
                                 - Низкая цена при высоком качестве продукции;<br>
@@ -125,7 +134,7 @@
                         </div>
                         <div class="itemInfo d-none d-md-block">
                             <b>Standard Blue Simple compounds</b><br>
-                            <span>
+                            <span class="lang" key="productsBlockSecondItem">
                                 - Хорошее торможение при использовании любого гринда;<br>
                                 - Подходят для наклейки на любые пластиковые корпуса;<br>
                                 - Низкая цена при высоком качестве продукции;<br>
@@ -145,7 +154,7 @@
                         </div>
                         <div class="itemInfo d-none d-md-block">
                             <b>Standard Blue CNC pads</b><br>
-                            <span>
+                            <span class="lang" key="productsBlockThreeItem">
                                 - Хорошее торможение при использовании любого гринда;<br>
                                 - Качественные корпуса от Cloud;<br>
                                 - Низкая цена при высоком качестве продукции;<br>
@@ -176,8 +185,8 @@
         <div class="col-12 row no-gutters justify-content-center align-items-center">
             <div class="col-6 col-md-4">
                 <i class="fa fa-money fa-4x"></i>
-                <h1>ЛУЧШИЕ ЦЕНЫ</h1>
-                <p>Вы покупаете на прямую от<br>производителя</p>
+                <h1 class="lang" key="whyWeHeadLine">ЛУЧШИЕ ЦЕНЫ</h1>
+                <p class="lang" key="whyWeBye">Вы покупаете на прямую от<br>производителя</p>
             </div>
         </div>
         <div class="col-12 row thirdBlock no-gutters align-items-center">
@@ -213,7 +222,7 @@
 
     <div class="row trustBlock">
         <div class="col-12 label">
-            <p>Нам доверяют:</p>
+            <p class="lang" key="trustBlockFirst">Нам доверяют:</p>
         </div>
         <div class="col-12 col-md-6 videoBlock">
             <div class="video">
@@ -224,16 +233,16 @@
             </div>
         </div>
         <div class="col-12 col-md-6 textBlock mobileBlock">
-            <span>Качественный компаунд - залог успеха!</span>
+            <span class="lang" key="trustBlockMainText">Качественный компаунд - залог успеха!</span>
         </div>
     </div>
 
     <div class="row howBlock justify-content-center">
         <div class="col-12 label">
-            <p>Как мы работаем?</p>
+            <p class="lang" key="howBlockHowWe">Как мы работаем?</p>
         </div>
         <div class="col-12 col-md-2">
-            <span> Отправьте заявку или напишите в любимый  месенджер</span>
+            <span class="lang" key="howWeSendMessage">Отправьте заявку или напишите в любимый  месенджер</span>
             <svg
                     xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -250,7 +259,7 @@
             </svg>
         </div>
         <div class="col-12 col-md-2">
-            <span>Консультируем по моделям и условиям их использования</span>
+            <span class="lang" key="howWeConsultating">Консультируем по моделям и условиям их использования</span>
             <svg
                     xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -267,7 +276,7 @@
             </svg>
         </div>
         <div class="col-12 col-md-2">
-            <span>Оплачиваете товар  онлайн</span>
+            <span class="lang" key="howWePaid">Оплачиваете товар  онлайн</span>
             <svg
                     xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -277,7 +286,7 @@
             </svg>
         </div>
         <div class="col-12 col-md-2">
-            <span>Доставляем заказ</span>
+            <span class="lang" key="howWeDelivery">Доставляем заказ</span>
             <svg
                     xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -290,15 +299,15 @@
 
     <footer class="row justify-content-center">
         <div class="col-12 label">
-            <p>Контакты</p>
+            <p class="lang" key="footerContacts">Контакты</p>
         </div>
         <div class="col-8 col-md-12 col-lg-8 row map">
             <img class="col-md-5" src="img/map.png" alt="map kokapads address">
             <div class="col-12 col-md-7 mapCard">
-                <p>Склад в Европе<br>Доставка по всему миру<br>EMAIL: KOKAPADS@GMAIL.COM</p>
+                <p class="lang" key="footerCardText">Склад в Европе<br>Доставка по всему миру<br>EMAIL: KOKAPADS@GMAIL.COM</p>
             </div>
-            <a class="consButton" href="">
-                <div>Получить консультацию!</div>
+            <a class="consButton" data-toggle="modal" data-target="#modal">
+                <div class="lang" key="footerButtonText">Получить консультацию!</div>
             </a>
         </div>
         <div class="col-12 row justify-content-center contactsBlock">
@@ -333,6 +342,26 @@
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
 <script>
+    var arrLang = {
+        'en': {
+            'firstBoxHeadLine': 'Brake pads and compounds',
+            'firstBoxParagraph': 'for using on hydraulic and mechanics rim brake',
+            'firstBoxOrder': 'Order now'
+        },
+        'ru': {
+            'firstBoxHeadLine': 'Тормозные колодки и компаунды',
+            'firstBoxParagraph': 'для ободных гидравлических и механических тормозных систем',
+            'firstBoxOrder': 'Заказать сейчас'
+        }
+    };
+    $(function() {
+        $('.translate').click(function() {
+            var lang = $(this).attr('id');
+            $('.lang').each(function(index, element) {
+                $(this).text(arrLang[lang][$(this).attr('key')])
+            });
+        });
+    });
     $(function () {
         $('[data-toggle="tooltip"]').tooltip()
     })

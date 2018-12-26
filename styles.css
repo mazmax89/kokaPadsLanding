@@ -1,11 +1,13 @@
 @font-face {
     font-family: CenturyGothicRegular;
     src: url(fonts/CenturyGothic.ttf);
+    font-display: auto;
 }
 
 @font-face {
     font-family: CenturyGothicBold;
     src: url(fonts/CenturyGothic-Bold.ttf);
+    font-display: auto;
 }
 
 body {

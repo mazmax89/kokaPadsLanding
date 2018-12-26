@@ -219,7 +219,7 @@ header {
 
 .productsBlock::after {
     content: '';
-    background-image: url(img/pan.jpg);
+    background-image: url(img/pan.jpf);
     opacity: 0.3;
     top: 0;
     left: 0;
@@ -279,7 +279,7 @@ header {
 
 .whyWe::after {
     content: '';
-    background-image: url(img/whyback.jpg);
+    background-image: url(img/whyback.jpf);
     opacity: 0.3;
     top: 0;
     left: 0;
@@ -321,7 +321,7 @@ header {
 
 .trustBlock::after {
     content: '';
-    background-image: url(img/pavel.jpg);
+    background-image: url(img/pavel.jpf);
     opacity: 0.3;
     top: 0;
     left: 0;
@@ -402,7 +402,7 @@ footer {
 
 footer::after {
     content: '';
-    background-image: url(img/koka.jpg);
+    background-image: url(img/koka.jpf);
     background-size: cover;
     opacity: 0.4;
     top: 0;
